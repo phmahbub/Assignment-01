@@ -29,12 +29,12 @@
     margin-bottom: 2%;
 }
 .button{
-    background-color: tomato;
+    background-color: #FF5959;
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
     width: 200px;
-    height: 55px;
+    height: 65px;
     align-content: center;
     border-radius: 10px;
     border: none;
@@ -72,7 +72,7 @@
     justify-content: space-around;
     font-weight: 700;
     font-size: 36px;
-    color: #ff416d;
+    color: #0a0103;
     margin-bottom: 2%;
 }
 .amount{
@@ -82,11 +82,13 @@
     height: 110px;
     width: 130px;
     margin-top: 2%;
+    margin-bottom: 0;
     background-color: rgb(236, 244, 252);
 }
 #second{
     border: 3px solid rgb(247, 106, 130);
-   background-color: rgb(241, 211, 216);
+    background-color: rgb(241, 211, 216);
+    color: #FF5959;
 }
 #other-amount{
     width: 80%;
@@ -99,7 +101,7 @@
     text-align: center;
 }
 .other-amount{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-top: 5%;
     display: block;
     margin-left: 16%;
@@ -108,7 +110,7 @@
     box-sizing: border-box;
     background-color: #EDEEF3;
     width: 27%;
-    height: 650px;
+    height: 550px;
     box-shadow: 4px 5px 7px grey;
     border-radius: 10px;
 }
@@ -116,7 +118,7 @@
     box-sizing: border-box;
     background-color:#FDEBEB;
     width: 27%;
-    height: 650px;
+    height: 550px;
     box-shadow: 4px 5px 7px grey;
     border-radius: 10px;
 }
@@ -124,25 +126,30 @@
     box-sizing: border-box;
     background-color: #ECF8F8;
     width: 27%;
-    height: 650px;
+    height: 550px;
     box-shadow: 4px 5px 7px grey;
     border-radius: 10px;
 }
 .card-image{
     width: 60%;
-    margin: 4%;
+    margin-top: 4%;
+    padding-left: 5%;
+    align-content:center ;
 }
 .card-heading{
     text-align: justify;
     font-size: 40px;
     font-family: 'Roboto Serif', serif;
-    padding: 4%;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
 .card-description{
     font-size: 21px;
     font-family: 'Gentium Book Plus', serif;
     text-align: justify;
-    padding:4%;
+    padding-left:10%;
+    padding-right: 8%;
+    padding-bottom: 5%;
 }
 .donation-card{
     margin-top: 2%;
@@ -150,6 +157,13 @@
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
+}
+.card-link{
+    text-decoration: none;
+    color: #FF5959;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 70%;
 }
 .email-subscription{
   
@@ -198,4 +212,5 @@
 .footer-black{
     line-height: 100px;
     text-align: center;
+    font-family: font-family:'Poppins', sans-serif;
 }
