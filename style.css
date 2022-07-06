@@ -234,14 +234,19 @@
     color: wheat;
 }
 .footer{
-    height: 100px;
+    height: 150px;
     background-color: black;
     color: wheat;
 }
 .footer-black{
-    line-height: 100px;
+    line-height: 45px;
     text-align: center;
     font-size: 20px;
     font-family: font-family:'Poppins', sans-serif;
     margin-top:10%;
+    padding-top: 1%
+}
+.differnt-color{
+    color: tomato;
+    font-size: 35px;
 }
