@@ -12,6 +12,7 @@
 }
 .bold-text{
     color: antiquewhite;
+    font-family: 'Gentium Book Plus', serif;
     font-size: 80px;
     text-align: center;
     padding-top: 10%;
@@ -20,13 +21,15 @@
 }
 .text-desc{
     color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
+    margin-bottom: 2%;
 }
 .button{
-    background-color: #ff416d;
+    background-color: tomato;
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
@@ -40,6 +43,7 @@
 .button a{
     color:#2B2F6C;
     text-decoration: none;
+    color: wheat;
     
 }
 .btn-position{
@@ -131,10 +135,12 @@
 .card-heading{
     text-align: justify;
     font-size: 40px;
+    font-family: 'Roboto Serif', serif;
     padding: 4%;
 }
 .card-description{
     font-size: 21px;
+    font-family: 'Gentium Book Plus', serif;
     text-align: justify;
     padding:4%;
 }
@@ -163,7 +169,7 @@
 .email-form input{
     height: 8vh;
     width: 400px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0;
     margin-right: 0;
     border: none;
@@ -176,12 +182,13 @@
 }
 .email-form button{
     width: 200px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0;
     margin-left: 0;
     border: none;
     background-color: #ff416d;
     outline: none;
+    color: wheat;
 }
 .footer{
     height: 100px;
