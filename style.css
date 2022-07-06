@@ -183,3 +183,12 @@
     background-color: #ff416d;
     outline: none;
 }
+.footer{
+    height: 100px;
+    background-color: black;
+    color: wheat;
+}
+.footer-black{
+    line-height: 100px;
+    text-align: center;
+}
